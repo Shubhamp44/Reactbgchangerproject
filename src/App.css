@@ -1,4 +1,4 @@
-#root {
+/* #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -39,4 +39,76 @@
 
 .read-the-docs {
   color: #888;
+} */
+.main{
+width: 100%;
+  height:100vh ;
+  
 }
+.custom-button {
+  
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.custom-button:hover {
+  background-color: #4338ca; /* Darker Indigo */
+  transform: scale(1.05);
+}
+
+.custom-button:active {
+  transform: scale(0.97);
+}
+#rb{
+  background-color: red;
+}
+#yb{
+  background-color: yellow;
+}
+#bb{
+  background-color: black;
+}
+#pb{
+  background-color: pink;
+}
+  #pbu{
+    background-color: purple;
+  }
+
+#gb{
+  background-color: green;
+}
+#grb{
+  background-color: gray;
+}
+#brb{
+  background-color: brown;
+}
+.inbox{
+padding: 310px;
+
+
+}
+.styled-heading {
+  padding: 30px;
+  font-size: 3rem;
+  font-weight: 800;
+  color: #1f2937; /* Dark Gray */
+  text-align: center;
+  margin: 40px 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background: linear-gradient(to right, #6366f1, #ec4899);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+
